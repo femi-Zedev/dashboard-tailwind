@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: system-ui;
+}
+
+aside {
+    padding-top: 30px;
+    overflow-y: hidden;
+}
+
+main {
+    overflow-y: scroll;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: calc(100% - 20%);
+}
+
+.w-22px {
+    width: 22px;
+}
+
+.main-links {
+    border-bottom: 1px solid #dfe0eb1a;
+    padding-bottom: 1rem;
+}
+
+
+
+.link-active {
+    border-left: 3px solid #DDE2FF;
+    background-color: #fff5f50a;
+}
+
+.link-active p,.link-active svg {
+    color: #DDE2FF ;
+}

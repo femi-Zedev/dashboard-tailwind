@@ -1,0 +1,23 @@
+:root {
+    --color-dark: #363740;
+    --color-light: #F7F8FC;
+    --color-gris: #DFE0EB;
+    /* --color-white-opacity03: rgba(255, 255, 255, 0.3); 
+    --color-white-opacity07: rgba(255, 255, 255, 0.7); */
+    /* ... */
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded-lg border border-gris;
+}
+
+.card-mini:hover {
+    @apply text-blue-500 border-blue-500;
+}
+
+.card-mini:hover h3 {
+    color: #3b82f680 !important;
+}

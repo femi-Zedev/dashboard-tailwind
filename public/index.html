@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Dashboard</title>
+</head>
+
+
+<body>
+    <aside class="bg-dark">
+        <span class="flex ml-8 items-center">
+            <img src="./assets/img/logo.png" alt="logo">
+            <h3 class="font-medium text-gray-400 ml-3 text-xl">Dashboard Kit</h3>
+        </span>
+
+        <div class="links mt-14">
+            <ul class="main-links">
+                <li class="flex py-4 link-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
+                        <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
+                      </svg>
+                    <p class="text-gray-400 ml-6 text-base">Overview</p>
+                </li>
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 100 4v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2a2 2 0 100-4V6z" />
+                    </svg>
+                    <p class="text-gray-400 ml-6 text-base">Tickets</p>
+                </li>
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z" />
+                    </svg>
+                    <p class="text-gray-400 ml-6 text-base">Ideas</p>
+                </li>
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+                    </svg>
+                    <p class="text-gray-400 ml-6 text-base">Contacts</p>
+                </li>
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                    </svg>   
+                    <p class="text-gray-400 ml-6 text-base">Agents</p>
+                </li>
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                        <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd" />
+                    </svg>   
+                    <p class="text-gray-400 ml-6 text-base">Articles</p>
+                </li>               
+            </ul>
+            <ul class="">
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                    </svg>
+                    <p class="text-gray-400 ml-6 text-base">Settings</p>
+                </li> 
+                <li class="flex py-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px ml-8 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <p class="text-gray-400 ml-6 text-base">Subscription</p>
+                </li>    
+            </ul>
+        </div>
+    </aside>
+    <main class="bg-light ">
+
+        <nav class="items-center fixed bg-white px-8 py-8">
+            <h2 class="font-medium text-2xl ">Overview</h2>
+            <span class="flex items-center">
+                <button class="ml-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg> 
+                </button>
+                <button class="ml-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-22px text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                    </svg>
+                </button>
+            </span>
+        </nav>
+
+        <section class="grid grid-auto-rows gap-8 px-8 pt-10">
+            <div class="grid grid-cols-4 gap-8 mt-20 ">
+                <div class="card card-mini text-center h-134 hover:text-blue-500">
+                    <h3 class="pt-4 text-gray-400 font-medium text-lg">Unresolved</h3>
+                    <h1 class="font-bold pt-3 text-4xl">60</h1>
+                </div>
+                <div class="card card-mini text-center h-134">
+                    <h3 class="pt-4 text-gray-400 font-medium text-lg">Overdue</h3>
+                    <h1 class="font-bold pt-3 text-4xl">16</h1>
+                </div>
+                <div class="card card-mini text-center h-134">
+                    <h3 class="pt-4 text-gray-400 font-medium text-lg">Open</h3>
+                    <h1 class="font-bold pt-3 text-4xl">43</h1>
+                </div>
+                <div class="card card-mini text-center h-134">
+                    <h3 class="pt-4 text-gray-400 font-medium text-lg">On hold</h3>
+                    <h1 class="font-bold pt-3 text-4xl">64</h1>
+                </div>
+            </div>
+    
+            <div class="card h-550"></div>
+    
+            <div class="grid grid-cols-2 gap-4">
+                <div class="card h-340"></div>
+                <div class="card h-340"></div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
